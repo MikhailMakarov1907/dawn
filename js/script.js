@@ -4,10 +4,10 @@ const $  = (e) => document.querySelector(e),
 function engines () {
   return {
     g: ['https://google.com/search?q=', 'Google'],
-    i: ['https://ixquick.com/do/search?q=', 'Ixquick'],
-    d: ['https://duckduckgo.com/html?q=', 'DuckDuckGo'],
+	s: ['https://soundcloud.com/search?q=', 'Soundcloud']
+    m: ['https://mangasee123.com/search/?name=', 'Mangasee123'],
     y: ['https://youtube.com/results?search_query=', 'Youtube'],
-    w: ['https://en.wikipedia.org/w/index.php?search=', 'Wikipedia']
+	b: ['https://bato.to/search?q=', 'Bato.to']
   };
 }
 
